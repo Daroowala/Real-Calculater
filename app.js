@@ -11,7 +11,7 @@ function getresult(){
     result.value = eval(result.value)
 }
 
-function backspace(input){
-    var result = document.getElementById("result")
-return input.slice(0, -1);
+function backspace(){
+    var display = document.getElementById("result")
+display.value = display.value.slice(0, -1);
 }

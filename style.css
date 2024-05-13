@@ -57,13 +57,32 @@
     border-color:rgb(7, 152, 241) ;
 }
 
-@media only screen and (max-width: 600px) {
-    .btn {
-        width: 30%; /* Adjusted width for smaller screens */
-        font-size: medium; /* Adjusted font size for smaller screens */
+@media only screen and (max-width: 320px){
+    .main{
+        width: 90%;
+        max-width: 320px; 
+        height: auto; 
+        padding: 10px;
     }
-    .halfbtn, .eq {
-        width: 45%; /* Adjusted width for smaller screens */
-        font-size: medium; /* Adjusted font size for smaller screens */
+    .result{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
-}
+    .clear{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .btn{
+        width: 23%;
+        font-size: 16px;
+    }
+    .halfbtn{
+        width: 46%;
+        font-size: 15px;
+    }
+    .eq{
+        width: 46%;
+        font-size: 15px;
+    }
+    }

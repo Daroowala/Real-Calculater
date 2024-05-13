@@ -56,3 +56,14 @@
     border-radius: 10px;
     border-color:rgb(7, 152, 241) ;
 }
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        width: 30%; /* Adjusted width for smaller screens */
+        font-size: medium; /* Adjusted font size for smaller screens */
+    }
+    .halfbtn, .eq {
+        width: 45%; /* Adjusted width for smaller screens */
+        font-size: medium; /* Adjusted font size for smaller screens */
+    }
+}

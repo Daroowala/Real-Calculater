@@ -115,4 +115,33 @@
             font-size: 15px;
         }
     }
+    @media only screen and (max-width: 286px){
+        .main{
+            width: 93%;
+            max-width: 320px; 
+            height: auto; 
+            padding: 10px;
+        }
+        .result{
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .clear{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .btn{
+            width: 23%;
+            font-size: 16px;
+        }
+        .halfbtn{
+            width: 46%;
+            font-size: 15px;
+        }
+        .eq{
+            width: 46%;
+            font-size: 15px;
+        }
+    }
     

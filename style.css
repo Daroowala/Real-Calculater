@@ -56,6 +56,35 @@
     border-radius: 10px;
     border-color:rgb(7, 152, 241) ;
 }
+@media only screen and (max-width: 600px){
+    .main{
+        width: 90%;
+        max-width: 320px; 
+        height: auto; 
+        padding: 10px;
+    }
+    .result{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .clear{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .btn{
+        width: 23%;
+        font-size: 16px;
+    }
+    .halfbtn{
+        width: 46%;
+        font-size: 15px;
+    }
+    .eq{
+        width: 50%;
+        font-size: 15px;
+    }
+}
 
 @media only screen and (max-width: 320px){
     .main{
